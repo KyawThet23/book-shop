@@ -23,7 +23,6 @@
                                         <th>Price</th>
                                         <th>Quantity</th>
                                         <th>Genre</th>
-                                        <th>Description</th>
                                         <th>Category</th>
                                         <th>Author</th>
                                     </tr>
@@ -37,7 +36,6 @@
                                         <td th:text="${bo.price}"></td>
                                         <td th:text="${bo.quantity}"></td>
                                         <td th:text="${bo.genre}"></td>
-                                        <td th:text="${#strings.substring(bo.description,0,5)}"></td>
                                         <td th:text="${bo.category.categoryName}"></td>
                                         <td th:text="${bo.author.name}"></td>
                                     </tr>
